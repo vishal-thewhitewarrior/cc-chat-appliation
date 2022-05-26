@@ -1,0 +1,51 @@
+{
+  "name": "db",
+  "description": "",
+  "version": "0.0.0",
+  "homepage": "",
+  "main": "src",
+  "keywords": [
+    "feathers"
+  ],
+  "author": {
+    "name": "vishal-thewhitewarrior",
+    "email": "vishal@thewhitewarrior.com"
+  },
+  "contributors": [],
+  "bugs": {},
+  "directories": {
+    "lib": "src",
+    "test": "test/"
+  },
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "scripts": {
+    "test": "npm run eslint && npm run mocha",
+    "eslint": "eslint src/. test/. --config .eslintrc.json",
+    "start": "node src/",
+    "mocha": "mocha test/ --recursive --exit"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "feathers": "^2.2.4",
+    "feathers-authentication": "^1.3.1",
+    "feathers-authentication-hooks": "^1.0.2",
+    "feathers-authentication-jwt": "^0.3.2",
+    "feathers-authentication-local": "^0.4.4",
+    "feathers-configuration": "^0.4.2",
+    "feathers-errors": "^2.9.2",
+    "feathers-hooks": "^2.1.2",
+    "feathers-hooks-common": "^6.1.0",
+    "feathers-nedb": "^6.0.0",
+    "feathers-rest": "^1.8.1",
+    "feathers-socketio": "^2.0.1",
+    "helmet": "^5.1.0",
+    "nedb": "^1.8.0",
+    "serve-favicon": "^2.5.0",
+    "winston": "^3.7.2"
+  }
+}
